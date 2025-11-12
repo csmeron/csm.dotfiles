@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 set -g fish_greeting
-cat ~/HERE.md
+set -x BROWSER wslview
+
 
 starship init fish | source
